@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Adit Patel</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- jQuery from Google CDN-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Script for scrolling to correct section -->
+  <script src="./js/scrollScript.js"></script>
+
+
+  <style>
+  html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+  </style>
+</head>
+
+
+
+
+<body class="w3-light-grey">
+
+  <!-- Top Nav Bar -->
+  <div class="w3-top w3-margin-bottom w3-khaki"  style="box-shadow: 1px 1px 10px #000;">
+    <div class="w3-bar ">
+      <!-- <a href="#" class="w3-bar-item w3-button">Home</a> -->
+      <a href="#" class="w3-bar-item w3-button w3-khaki"><i class="fa fa-home"></i></a>
+      <a href="#About Me" class="w3-bar-item w3-button w3-hide-small">About Me</a>
+      <a href="#Education" class="w3-bar-item w3-button w3-hide-small">Education</a>
+      <a href="#Work Experience" class="w3-bar-item w3-button w3-hide-small">Work Experience</a>
+      <a href="#Software Projects" class="w3-bar-item w3-button w3-hide-small">Software Projects</a>
+      <a href="#Hardware Projects" class="w3-bar-item w3-button w3-hide-small">Hardware Projects</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small">Resume</a>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <div id="demo" class="w3-bar-block w3-khaki w3-hide w3-hide-large w3-hide-medium">
+      <a href="#About Me" class="w3-bar-item w3-button">About Me</a>
+      <a href="#Education" class="w3-bar-item w3-button">Education</a>
+      <a href="#Work Experience" class="w3-bar-item w3-button">Work Experience</a>
+      <a href="#Software Projects" class="w3-bar-item w3-button">Software Projects</a>
+      <a href="#Hardware Projects" class="w3-bar-item w3-button">Hardware Projects</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small">Resume</a>
+
+    </div>
+  </div><br><br>
+  <!-- End Nav Bar -->
+
+
+
+
+  <!-- Page Container -->
+  <div class="w3-content w3-margin-top " style="max-width:1150px; ">
+
+    <!-- About Me Section -->
+    <div class="w3-row-padding w3-margin ">
+      <!-- Left Column -->
+      <div class="w3-third">
+        <div class="w3-white w3-text-grey w3-card-4">
+
+          <div class="w3-display-container" >
+            <img src="./img/adit_patel.jpg" style="width:100%" alt="Avatar">
+            <div>
+              <div class="w3-display-bottom w3-container w3-text-khaki">
+                <h2 style="text-shadow:1px 1px 1px  #000">Adit Patel</h2>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="w3-container">
+            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-khaki"></i>Software & Embedded Systems Engineer</p>
+            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-khaki"></i>Toronto, CA</p>
+            <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-khaki"></i>aditpatel14@gmail.com</p>
+            <hr>
+
+            <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-khaki"></i>Software Skills</b></p>
+
+            <p><b>6 years </b>Java</p>
+            <p><b>3 years </b>Python</p>
+            <p><b>1 years </b>MERN Stack (MondoDB, Express, React, Node)</p>
+            <p><b>5 years </b>Android Development</p>
+            <p><b>4 years </b>HTML & CSS</p>
+            <p><b>3 years </b>JavaScript</p>
+            <p><b>1 years </b>SQL, MySQL, SQL Server</p>
+            <p><b>1 years </b>C</p>
+            <p><b>1 years </b>ASP.NET Stack</p>
+
+            <p>Photography</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <h6>asdfasdf</h6>
+              <div class="w3-container w3-center w3-round-xlarge w3-khaki" >80%</div>
+            </div>
+            <p>Illustrator</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-khaki" style="width:75%">75%</div>
+            </div>
+            <p>Media</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-khaki" style="width:50%">50%</div>
+            </div>
+            <br>
+
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="w3-twothird">
+
+        <div id="About Me" class="w3-container w3-card w3-white w3-margin-bottom ">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-khaki"></i>Hi there :)</h2>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Front End Developer / w3schools.com</b></h5>
+            <h6 class="w3-text-khaki"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-khaki w3-round">Current</span></h6>
+            <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
+            <h6 class="w3-text-khaki"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
+            <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
+            <h6 class="w3-text-khaki"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
+          </div>
+        </div>
+
+        <div id="Education" class="w3-container w3-card w3-white">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-khaki"></i>Education</h2>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
+            <h6 class="w3-text-khaki"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+            <p>Web Development! All I need to know in one place</p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>London Business School</b></h5>
+            <h6 class="w3-text-khaki"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
+            <p>Master Degree</p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>School of Coding</b></h5>
+            <h6 class="w3-text-khaki"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
+            <p>Bachelor Degree</p><br>
+          </div>
+        </div>
+
+        <!-- End Right Column -->
+      </div>
+    </div>
+
+    <!-- Education Section -->
+    <div class="w3-row-padding w3-margin">
+      <!-- Left Column -->
+      <div class="w3-third">
+        <div class="w3-white w3-text-grey w3-card-4">
+          <div class="w3-display-container" >
+
+            <!-- <img src="./img/mcmaster.png" style="width:100%" alt="Avatar"> -->
+          </div>
+        </div>
+        <br>
+        <!-- End Left Column -->
+      </div>
+
+      <!-- Right Column -->
+      <div class="w3-twothird">
+        <div id="Education" class="w3-container w3-card w3-white ">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-khaki"></i>Education</h2>
+
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>B.Eng Software Engineering and Embedded Systems Design </b></h5>
+            <h6 class="w3-text-khaki"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sept 2015 - April 2019</h6>
+            <p>Bachelor Degree</p>
+            <hr>
+          </div>
+
+        </div>
+
+        <!-- End Right Column -->
+      </div>
+      <!-- End Grid -->
+    </div>
+
+    <!-- Work Experience -->
+    <div class="w3-row-padding w3-margin">
+      <!-- Left Column -->
+      <div class="w3-third">
+        <div class="w3-white w3-text-grey w3-card-4">
+        </div>
+        <br>
+        <!-- End Left Column -->
+      </div>
+      <!-- Right Column -->
+      <div class="w3-twothird">
+
+        <div id="Work Experience" class="w3-container w3-card w3-white">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-khaki"></i>Work Experience</h2>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Front End Developer / w3schools.com</b></h5>
+            <h6 class="w3-text-khaki"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-khaki w3-round">Current</span></h6>
+            <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
+            <h6 class="w3-text-khaki"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
+            <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
+            <h6 class="w3-text-khaki"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+          </div>
+        </div>
+
+
+
+        <!-- End Right Column -->
+      </div>
+      <!-- End Grid -->
+    </div>
+
+    <!-- Software Projects -->
+    <div class="w3-row-padding w3-margin">
+      <!-- Left Column -->
+      <div class="w3-third">
+        <div class="w3-white w3-text-grey w3-card-4">
+        </div>
+        <br>
+        <!-- End Left Column -->
+      </div>
+      <!-- Right Column -->
+      <div class="w3-twothird">
+
+        <div id="Software Projects" class="w3-container w3-card w3-white">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-khaki"></i>Software Projects</h2>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Front End Developer / w3schools.com</b></h5>
+            <h6 class="w3-text-khaki"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-khaki w3-round">Current</span></h6>
+            <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
+            <h6 class="w3-text-khaki"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
+            <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
+            <h6 class="w3-text-khaki"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+          </div>
+        </div>
+
+
+
+        <!-- End Right Column -->
+      </div>
+      <!-- End Grid -->
+    </div>
+
+    <!-- Hardware Projects -->
+    <div class="w3-row-padding w3-margin">
+      <!-- Left Column -->
+      <div class="w3-third">
+        <div class="w3-white w3-text-grey w3-card-4">
+        </div>
+        <br>
+        <!-- End Left Column -->
+      </div>
+      <!-- Right Column -->
+      <div class="w3-twothird">
+
+        <div id="Hardware Projects" class="w3-container w3-card w3-white">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-khaki"></i>Hardware Projects</h2>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Front End Developer / w3schools.com</b></h5>
+            <h6 class="w3-text-khaki"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-khaki w3-round">Current</span></h6>
+            <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
+            <h6 class="w3-text-khaki"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
+            <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
+            <h6 class="w3-text-khaki"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+          </div>
+        </div>
+
+
+
+        <!-- End Right Column -->
+      </div>
+      <!-- End Grid -->
+    </div>
+
+    <!-- End Page Container -->
+  </div>
+
+  <footer class="w3-container w3-khaki w3-center w3-margin-top w3-margin-bottom">
+    <p>Check out my code!</p>
+    <a href="https://www.linkedin.com/in/pateladit" class="fa fa-linkedin-square w3-hover-opacity" style="font-size: 2em;" target="_blank"></a>
+    <a href="https://github.com/aditpatel14" class="fa fa-github-square w3-hover-opacity" style="font-size: 2em;" target="_blank"></a>
+    <a href="mailto:aditpatel14@gmail.com" class="fa fa-envelope w3-hover-opacity" style="font-size: 2em;" target="_blank"></a>
+    <p>&nbsp</p>
+    <!-- <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p> -->
+  </footer>
+
+
+</body>
+</html>
